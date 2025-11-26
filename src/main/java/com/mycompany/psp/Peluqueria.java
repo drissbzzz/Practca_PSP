@@ -38,18 +38,17 @@ public class Peluqueria {
         return peinado;
     }
 
-    // --- MÉTODOS DE AVISO ---
-    // El Cliente llama a esto cuando se sienta en CUALQUIER silla
+    // El cliente llama a esto cuando se sienta en cualquier zona
     public void tocarTimbre() {
         timbreGeneral.release(); // Se activa el timbre para despertar a una peluquera
     }
 
-    // La Peluquera llama a esto para echarse la siesta hasta que haya trabajo
+    // La peluquera llama a esto para echarse la siesta (pero no la que le corresponde) hasta que haya trabajo
     public void esperarTimbre() {
         try {
             timbreGeneral.acquire(); // Se duerme si es 0. Despierta si es 1.
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Error en el ticket general");
         }
     }
 }

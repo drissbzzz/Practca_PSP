@@ -9,54 +9,61 @@ package com.mycompany.psp;
  * @author driss
  */
 public class Peluquera extends Thread {
-    private int id;
-    private Peluqueria peluqueria;
 
-    public Peluquera(int id, Peluqueria peluqueria) {
+    private int id;
+    private Peluqueria p;
+    private int clientesAtendidos = 0;
+
+    public Peluquera(int id, Peluqueria p) {
         this.id = id;
-        this.peluqueria = peluqueria;
+        this.p = p;
     }
 
-    public int getIdPeluquera() { return id; }
+    public int getIdPeluquera() {
+        return id;
+    }
 
     @Override
     public void run() {
         while (true) {
             try {
-                // 1. Esperamos turno
-                //System.out.println("... Peluquera " + id + " esta INACTIVA esperando clientes ...");
-                peluqueria.esperarTimbre(); // Consume 1 ticket
+                p.esperarTimbre(); // Intenta coger un ticket de los que libera el cliente
+                boolean heTrabajado = false; // Creamos este boolean para evitar falsos positivos de cumplir la accion de atender
 
-                // 2. Intentamos trabajar
-                boolean heTrabajado = false; // Marcador
-
-                // Usamos el lock atómico (tryLock) en orden inverso de prioridad
-                if (peluqueria.getPeinado().atender(this)) {
+                // Usamos el lock
+                if (p.getPeinado().atender(this)) {
                     heTrabajado = true;
-                }
-                else if (peluqueria.getTinte().atender(this)) {
+                } else if (p.getTinte().atender(this)) {
                     heTrabajado = true;
-                }
-                else if (peluqueria.getCorte().atender(this)) {
+                } else if (p.getCorte().atender(this)) {
                     heTrabajado = true;
-                }
-                else if (peluqueria.getLavado().atender(this)) {
+                } else if (p.getLavado().atender(this)) {
                     heTrabajado = true;
                 }
 
-                // 3. LA SOLUCIÓN AL BLOQUEO
-                // Si consumí un ticket pero no pude trabajar (porque otra peluquera
-                // me ganó el tryLock en todas las zonas), DEVUELVO EL TICKET.
+                // Si consumio un ticket pero no pudo atemder (porque otra peluquera
+                // le gano el tryLock en todas las zonas), devuelve el ticket a la zona para que no se quede ese cliente sin atencion.
+                // Esto se debe hacer porque sino el cliente que lanza la peticion de atención se queda sin su ticket ya que esta peluquera
+                // lo consume y no realiza la accion
                 if (!heTrabajado) {
-                    // "No he podido hacer nada, devuelvo el turno por si acaso"
-                    peluqueria.tocarTimbre(); 
-                    
-                    // Pequeña pausa para no entrar en bucle infinito instantáneo (Yield)
-                    Thread.sleep(10); 
+                    p.tocarTimbre();
+                    Thread.sleep(10);//La peluquera se va a dormir un pequeño momento para evitar que vuelva a coger el mismo ticket que ella dejo y
+                    // que vuelva a pasar lo mismo constantemente
+                } else {
+                    clientesAtendidos++; //comprobamos clientes atendidos para el sistema de las siestas
+                    if (clientesAtendidos >= 10) {
+                        System.out.println("Peluquera " + id + " se toma una siesta para descansar...");
+                        Thread.sleep((long) (Math.random() * 2000 + 1000));// Tiempo aleatorio de descanso entre 1 y 3 segundos
+                        System.out.println("Peluquera " + id + " vuelve al trabajo de su siesta.");
+                        clientesAtendidos = 0; // Reset del contador
+                    }
                 }
-
+            } catch (InterruptedException e) {
+                // En caso de interrupción
+                System.out.println("Peluquera " + id + " termina su jornada y se va a casa.");
+                return; // Rompe el bucle y finaliza el hilo
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("Error en el run de las peluqueras");
             }
         }
     }

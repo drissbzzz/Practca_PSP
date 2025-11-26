@@ -20,52 +20,49 @@ public class Sitio {
         this.nombre = nombre;
         this.p = p;
     }
-    
-    public boolean estaOcupado() { return ocupado; }
-    
+
+    public boolean estaOcupado() {
+        return ocupado;
+    }
+
     public void entrar(Cliente c) {
         try {
-            silla.acquire();  // 1. Me siento (si está ocupado, espero aquí)             
-            System.out.println("Cliente " + c.getIdCliente() + "SE SIENTA en " + nombre + " y espera...");
-            ocupado = true;
-            p.tocarTimbre();// 2. Aviso de que estoy esperando
-            finServicio.acquire();     // 3. Me echo a dormir hasta que terminen
-            System.out.println("Cliente " + c.getIdCliente() + "SALE de " + nombre);
-            silla.release();           // 4. Me voy y libero la silla
+            silla.acquire();  // Cliente coge un ticket del semaforo de la silla            
+            System.out.println("Cliente " + c.getIdCliente() + " espera atencion en: " + nombre);
+            ocupado = true; //Para que la peluquera antes de actuar confirme que hay un cliente
+            p.tocarTimbre();// Cliente libera un ticket general para indicar que hay trabajo pendiente
+            finServicio.acquire(); //Intenta adquirir un ticket de servicio terminado
+            System.out.println("Cliente " + c.getIdCliente() + " termino en: " + nombre);
+            silla.release(); //Libera el ticket para que otro pueda ocupar la silla
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Error en la entrada del cliente");
         }
     }
 
     public boolean atender(Peluquera p) {
-        // 1. Intento cerrar el candado (tryLock). 
-        // Si devuelve true: He conseguido entrar yo sola.
-        // Si devuelve false: Hay otra peluquera, así que me voy sin bloquearme.
-        if (cerrojoPeluquera.tryLock()) {
+
+        if (cerrojoPeluquera.tryLock()) { //La peluquera intenta coger la llave a la atencion
             try {
-                // 2. Comprobación de seguridad: ¿De verdad hay cliente?
-                // Si entré pero resulta que no hay nadie (falsa alarma), devuelvo false.
-                if (!ocupado) {
-                    return false; 
+                if (!ocupado) { // Se vuelve a comprobar si realmente hay un cliente esperando atencion
+                    return false; //Devuelve falso y para aqui el metodo de atender
                 }
-                
-                // 3. SI LLEGO AQUÍ, HE CONSEGUIDO EL TRABAJO
-                System.out.println("Peluquera "+ p.getIdPeluquera() +" ATENDIENDO en " + nombre);
+                // Trabajando sobre el cliente
+                System.out.println("Peluquera " + p.getIdPeluquera() + " trabajando en: " + nombre);
                 try {
-                    Thread.sleep(100); 
-                } catch (Exception e) {}
-                
-                ocupado = false; // Ya no está ocupado
-                finServicio.release(); // Despierta al cliente
-                
-                return true; // ÉXITO: He trabajado
-                
+                    Thread.sleep((long) (Math.random() * 4000 + 1000));// Tiempo aleatorio de descanso entre 1 y 5 segundos
+                } catch (Exception e) {
+                    System.out.println("Error en el sleep de la peluquera");
+                }
+                ocupado = false; // La peluquera termina de atender y pone como que el sitio ya no está ocupado
+                finServicio.release();
+                /*Una vez la peluquera ya ha terminado el cliente ya no esta bloqueado
+                y le da el ticket que estaba esperando para irse, así ambos duran lo mismo en el proceso de la atencion*/
+                return true; // Se realizo la atención correctamente
             } finally {
-                // IMPORTANTE: Siempre abrir el cerrojo al salir
-                cerrojoPeluquera.unlock();
+                cerrojoPeluquera.unlock(); // La peluquera desbloquea el metodo de atender de la zona
             }
         }
-        return false;
+        return false; //Si no consigue el lock, no se pudo realizar la atencion
     }
 
 }
