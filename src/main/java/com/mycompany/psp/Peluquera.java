@@ -13,6 +13,7 @@ public class Peluquera extends Thread {
     private int id;
     private Peluqueria p;
     private int clientesAtendidos = 0;
+    private int totalClientesHistorico = 0;
 
     public Peluquera(int id, Peluqueria p) {
         this.id = id;
@@ -23,14 +24,20 @@ public class Peluquera extends Thread {
         return id;
     }
 
-    @Override
-    public void run() {
-        while (true) {
-            try {
-                p.esperarTimbre(); // Intenta coger un ticket de los que libera el cliente
-                boolean heTrabajado = false; // Creamos este boolean para evitar falsos positivos de cumplir la accion de atender
+    public int getTotalClientesHistorico() {
+        return totalClientesHistorico;
+    }
+    
 
-                // Usamos el lock
+    public void run() {
+        while (true) { // Como es Daemon, este while morirá solo
+            try {
+                // Estado: WAIT (Naranja) -> Esperando ticket
+                p.esperarTimbre();
+
+                boolean heTrabajado = false;
+
+                // Estado: RUNNING (Verde) -> Buscando trabajo
                 if (p.getPeinado().atender(this)) {
                     heTrabajado = true;
                 } else if (p.getTinte().atender(this)) {
@@ -41,29 +48,23 @@ public class Peluquera extends Thread {
                     heTrabajado = true;
                 }
 
-                // Si consumio un ticket pero no pudo atemder (porque otra peluquera
-                // le gano el tryLock en todas las zonas), devuelve el ticket a la zona para que no se quede ese cliente sin atencion.
-                // Esto se debe hacer porque sino el cliente que lanza la peticion de atención se queda sin su ticket ya que esta peluquera
-                // lo consume y no realiza la accion
                 if (!heTrabajado) {
                     p.tocarTimbre();
-                    Thread.sleep(10);//La peluquera se va a dormir un pequeño momento para evitar que vuelva a coger el mismo ticket que ella dejo y
-                    // que vuelva a pasar lo mismo constantemente
+                    // Estado: SLEEPING (Morado) -> Pequeña pausa
+                    Thread.sleep(10);
                 } else {
-                    clientesAtendidos++; //comprobamos clientes atendidos para el sistema de las siestas
+                    clientesAtendidos++;
+                    totalClientesHistorico++;
                     if (clientesAtendidos >= 10) {
-                        System.out.println("Peluquera " + id + " se toma una siesta para descansar...");
-                        Thread.sleep((long) (Math.random() * 2000 + 1000));// Tiempo aleatorio de descanso entre 1 y 3 segundos
-                        System.out.println("Peluquera " + id + " vuelve al trabajo de su siesta.");
-                        clientesAtendidos = 0; // Reset del contador
+                        Logger.escribir("Peluquera " + id + " se toma una siesta...");
+                        // Estado: SLEEPING (Morado) -> Siesta larga
+                        Thread.sleep((long) (Math.random() * 2000 + 1000));
+                        System.out.println("Peluquera " + id + " vuelve al trabajo.");
+                        clientesAtendidos = 0;
                     }
                 }
-            } catch (InterruptedException e) {
-                // En caso de interrupción
-                System.out.println("Peluquera " + id + " termina su jornada y se va a casa.");
-                return; // Rompe el bucle y finaliza el hilo
             } catch (Exception e) {
-                System.out.println("Error en el run de las peluqueras");
+                e.printStackTrace();
             }
         }
     }

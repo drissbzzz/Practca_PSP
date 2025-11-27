@@ -47,7 +47,7 @@ public class Sitio {
                     return false; //Devuelve falso y para aqui el metodo de atender
                 }
                 // Trabajando sobre el cliente
-                System.out.println("Peluquera " + p.getIdPeluquera() + " trabajando en: " + nombre);
+                Logger.escribir("Peluquera " + p.getIdPeluquera() + " trabajando en: " + nombre);
                 try {
                     Thread.sleep((long) (Math.random() * 4000 + 1000));// Tiempo aleatorio de descanso entre 1 y 5 segundos
                 } catch (Exception e) {

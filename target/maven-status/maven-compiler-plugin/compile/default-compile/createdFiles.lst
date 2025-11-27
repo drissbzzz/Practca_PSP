@@ -1,5 +1,7 @@
-com\mycompany\psp\Psp.class
 com\mycompany\psp\Cliente.class
 com\mycompany\psp\Peluquera.class
+com\mycompany\psp\Logger.class
+com\mycompany\psp\Psp.class
+com\mycompany\psp\SitioAnticuado.class
 com\mycompany\psp\Sitio.class
 com\mycompany\psp\Peluqueria.class

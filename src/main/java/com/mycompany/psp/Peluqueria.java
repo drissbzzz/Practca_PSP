@@ -8,33 +8,33 @@ import java.util.concurrent.Semaphore;
 
 public class Peluqueria {
 
-    private Sitio lavado;
-    private Sitio corte;
-    private Sitio tinte;
-    private Sitio peinado;
+    private SitioAnticuado lavado;
+    private SitioAnticuado corte;
+    private SitioAnticuado tinte;
+    private SitioAnticuado peinado;
 
     private Semaphore timbreGeneral = new Semaphore(0);
 
     public Peluqueria() {
-        this.lavado = new Sitio("Lavado", this);
-        this.corte = new Sitio("Corte", this);
-        this.tinte = new Sitio("Tinte", this);
-        this.peinado = new Sitio("Peinado", this);
+        this.lavado = new SitioAnticuado("Lavado", this);
+        this.corte = new SitioAnticuado("Corte", this);
+        this.tinte = new SitioAnticuado("Tinte", this);
+        this.peinado = new SitioAnticuado("Peinado", this);
     }
 
-    public Sitio getLavado() {
+    public SitioAnticuado getLavado() {
         return lavado;
     }
 
-    public Sitio getCorte() {
+    public SitioAnticuado getCorte() {
         return corte;
     }
 
-    public Sitio getTinte() {
+    public SitioAnticuado getTinte() {
         return tinte;
     }
 
-    public Sitio getPeinado() {
+    public SitioAnticuado getPeinado() {
         return peinado;
     }
 
