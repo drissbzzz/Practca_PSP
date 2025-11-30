@@ -15,7 +15,7 @@ public class main {
     public static void main(String[] args) {
 
         int num_pelu = 3;
-        int num_cli = 2; 
+        int num_cli = 500; 
         
         //Para hacer los parametros de la peluqueria personalizables
         Scanner sc = new Scanner(System.in);
