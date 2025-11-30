@@ -78,3 +78,660 @@
 [2025-11-26T19:57:14.669649100] Peluquera 3 atendiendo en Peinado
 [2025-11-26T19:57:19.529815800] Cliente 6 sale de Peinado
 [2025-11-26T19:57:19.529815800] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:07.818314700] Peluquera 1 trabajando en: Lavado
+[2025-11-29T16:45:09.006686] Peluquera 2 trabajando en: Corte
+[2025-11-29T16:45:09.006686] Peluquera 3 trabajando en: Lavado
+[2025-11-29T16:45:10.389927800] Peluquera 1 trabajando en: Lavado
+[2025-11-29T16:45:11.409911800] Peluquera 3 trabajando en: Tinte
+[2025-11-29T16:45:11.409911800] Peluquera 2 trabajando en: Corte
+[2025-11-29T16:45:13.055774] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:14.677256700] Peluquera 1 trabajando en: Lavado
+[2025-11-29T16:45:16.123089400] Peluquera 2 trabajando en: Tinte
+[2025-11-29T16:45:17.697923800] Peluquera 1 trabajando en: Corte
+[2025-11-29T16:45:17.757255900] Peluquera 2 trabajando en: Lavado
+[2025-11-29T16:45:17.761485] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:17.761485] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:20.083451900] Peluquera 2 trabajando en: Lavado
+[2025-11-29T16:45:20.875116600] Peluquera 1 trabajando en: Tinte
+[2025-11-29T16:45:21.212681] Peluquera 3 trabajando en: Corte
+[2025-11-29T16:45:21.212681] Cliente 3 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:23.675915500] Peluquera 3 trabajando en: Corte
+[2025-11-29T16:45:24.641811900] Peluquera 2 trabajando en: Lavado
+[2025-11-29T16:45:24.807310] Peluquera 1 trabajando en: Peinado
+[2025-11-29T16:45:24.872812300] Peluquera 3 trabajando en: Tinte
+[2025-11-29T16:45:26.106003800] Peluquera 2 trabajando en: Corte
+[2025-11-29T16:45:26.386061300] Peluquera 1 trabajando en: Lavado
+[2025-11-29T16:45:26.386061300] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:28.271332800] Peluquera 2 trabajando en: Corte
+[2025-11-29T16:45:29.344994500] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:30.977253300] Peluquera 1 trabajando en: Tinte
+[2025-11-29T16:45:32.111718800] Peluquera 2 trabajando en: Lavado
+[2025-11-29T16:45:32.858672400] Peluquera 1 trabajando en: Corte
+[2025-11-29T16:45:33.102189200] Peluquera 3 trabajando en: Tinte
+[2025-11-29T16:45:33.102189200] Cliente 4 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:34.503351100] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:35.872444100] Peluquera 1 trabajando en: Tinte
+[2025-11-29T16:45:36.992442800] Peluquera 2 trabajando en: Corte
+[2025-11-29T16:45:38.478385700] Cliente 5 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:38.478385700] Peluquera 3 se toma una siesta...
+[2025-11-29T16:45:38.791559900] Peluquera 2 se toma una siesta...
+[2025-11-29T16:45:39.921611400] Peluquera 1 se toma una siesta...
+[2025-11-29T16:45:40.699578600] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:40.824775700] Peluquera 2 trabajando en: Tinte
+[2025-11-29T16:45:41.010839700] Peluquera 1 trabajando en: Lavado
+[2025-11-29T16:45:43.018968700] Peluquera 2 trabajando en: Tinte
+[2025-11-29T16:45:43.154797400] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:43.154797400] Peluquera 3 trabajando en: Peinado
+[2025-11-29T16:45:44.214862900] Peluquera 1 trabajando en: Corte
+[2025-11-29T16:45:46.888172200] Cliente 7 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:46.888172200] Peluquera 1 trabajando en: Peinado
+[2025-11-29T16:45:47.482170400] Peluquera 3 trabajando en: Tinte
+[2025-11-29T16:45:48.018404900] Cliente 8 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:48.018404900] Peluquera 2 trabajando en: Peinado
+[2025-11-29T16:45:51.596514300] Cliente 9 ha salido fresquisimo y muy contento
+[2025-11-29T16:45:51.596514300] Peluquera 1 trabajando en: Peinado
+[2025-11-29T16:45:54.216744100] Cliente 10 ha salido fresquisimo y muy contento
+[2025-11-30T06:54:46.612995800] Cliente 1 espera atencion en: Lavado
+[2025-11-30T06:54:46.621972700] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:54:47.679889800] Cliente 1 termino en: Lavado
+[2025-11-30T06:54:47.679889800] Cliente 1 espera atencion en: Corte
+[2025-11-30T06:54:47.680867800] Cliente 2 espera atencion en: Lavado
+[2025-11-30T06:54:47.680867800] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:54:47.680867800] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:54:50.698852600] Cliente 1 termino en: Corte
+[2025-11-30T06:54:50.699849900] Cliente 1 espera atencion en: Tinte
+[2025-11-30T06:54:50.699849900] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:54:51.997898600] Cliente 2 termino en: Lavado
+[2025-11-30T06:54:51.997898600] Cliente 2 espera atencion en: Corte
+[2025-11-30T06:54:51.997898600] Cliente 3 espera atencion en: Lavado
+[2025-11-30T06:54:51.998890400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:54:51.998890400] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:54:52.269881800] Cliente 1 termino en: Tinte
+[2025-11-30T06:54:52.269881800] Cliente 1 espera atencion en: Peinado
+[2025-11-30T06:54:52.269881800] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:54:53.236658200] Cliente 2 termino en: Corte
+[2025-11-30T06:54:53.236658200] Cliente 2 espera atencion en: Tinte
+[2025-11-30T06:54:53.236658200] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:54:55.486655600] Cliente 2 termino en: Tinte
+[2025-11-30T06:54:56.148428800] Cliente 3 termino en: Lavado
+[2025-11-30T06:54:56.148428800] Cliente 3 espera atencion en: Corte
+[2025-11-30T06:54:56.149427400] Cliente 4 espera atencion en: Lavado
+[2025-11-30T06:54:56.149427400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:54:56.149427400] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:54:56.406029100] Cliente 1 termino en: Peinado
+[2025-11-30T06:54:56.406029100] Cliente 2 espera atencion en: Peinado
+[2025-11-30T06:54:56.406951100] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:54:56.406951100] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T06:54:57.698943] Cliente 2 termino en: Peinado
+[2025-11-30T06:54:57.698943] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T06:54:58.368100100] Cliente 4 termino en: Lavado
+[2025-11-30T06:54:58.368100100] Cliente 5 espera atencion en: Lavado
+[2025-11-30T06:54:58.369097600] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:54:58.772974300] Cliente 3 termino en: Corte
+[2025-11-30T06:54:58.772974300] Cliente 3 espera atencion en: Tinte
+[2025-11-30T06:54:58.772974300] Cliente 4 espera atencion en: Corte
+[2025-11-30T06:54:58.773973400] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:54:58.773973400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:54:59.105106600] Cliente 1 espera atencion en: Lavado
+[2025-11-30T06:54:59.113085] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:00.210939400] Cliente 5 termino en: Lavado
+[2025-11-30T06:55:00.210939400] Cliente 6 espera atencion en: Lavado
+[2025-11-30T06:55:00.211937500] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:00.442489] Cliente 4 termino en: Corte
+[2025-11-30T06:55:00.442489] Cliente 5 espera atencion en: Corte
+[2025-11-30T06:55:00.443486700] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:01.265599700] Cliente 3 termino en: Tinte
+[2025-11-30T06:55:01.265599700] Cliente 3 espera atencion en: Peinado
+[2025-11-30T06:55:01.266597100] Cliente 4 espera atencion en: Tinte
+[2025-11-30T06:55:01.266597100] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:55:03.190107200] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:03.190107200] Cliente 5 termino en: Corte
+[2025-11-30T06:55:03.399962400] Cliente 6 termino en: Lavado
+[2025-11-30T06:55:03.399962400] Cliente 6 espera atencion en: Corte
+[2025-11-30T06:55:03.400959900] Cliente 7 espera atencion en: Lavado
+[2025-11-30T06:55:03.400959900] Peluquera 1 trabajando en: Corte
+[2025-11-30T06:55:03.460801] Cliente 1 termino en: Lavado
+[2025-11-30T06:55:03.461797200] Cliente 1 espera atencion en: Corte
+[2025-11-30T06:55:03.461797200] Cliente 2 espera atencion en: Lavado
+[2025-11-30T06:55:03.462794700] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:03.462794700] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:04.686283500] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:04.687280400] Cliente 6 termino en: Corte
+[2025-11-30T06:55:04.740604400] Cliente 3 termino en: Peinado
+[2025-11-30T06:55:04.740604400] Cliente 3 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:04.996141] Cliente 4 termino en: Tinte
+[2025-11-30T06:55:04.996141] Cliente 4 espera atencion en: Peinado
+[2025-11-30T06:55:04.997139300] Cliente 5 espera atencion en: Tinte
+[2025-11-30T06:55:04.997139300] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:55:04.997139300] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:05.945454200] Cliente 7 termino en: Lavado
+[2025-11-30T06:55:05.945454200] Cliente 7 espera atencion en: Corte
+[2025-11-30T06:55:05.946370200] Cliente 8 espera atencion en: Lavado
+[2025-11-30T06:55:05.946370200] Peluquera 1 trabajando en: Corte
+[2025-11-30T06:55:07.015030400] Cliente 1 termino en: Corte
+[2025-11-30T06:55:07.015030400] Cliente 1 espera atencion en: Tinte
+[2025-11-30T06:55:07.015030400] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:07.054549100] Peluquera 2 trabajando en: Lavado
+[2025-11-30T06:55:07.054549100] Cliente 5 termino en: Tinte
+[2025-11-30T06:55:07.055547300] Cliente 6 espera atencion en: Tinte
+[2025-11-30T06:55:08.378371600] Cliente 2 termino en: Lavado
+[2025-11-30T06:55:08.379370] Cliente 2 espera atencion en: Corte
+[2025-11-30T06:55:08.379370] Cliente 4 espera atencion en: Lavado
+[2025-11-30T06:55:08.379370] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:08.380366800] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:08.580830200] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:08.580830200] Cliente 4 termino en: Peinado
+[2025-11-30T06:55:08.581827300] Cliente 4 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:08.581827300] Cliente 5 espera atencion en: Peinado
+[2025-11-30T06:55:09.600671700] Cliente 1 termino en: Tinte
+[2025-11-30T06:55:09.600671700] Cliente 1 espera atencion en: Peinado
+[2025-11-30T06:55:09.600671700] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:10.564764300] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:10.564764300] Cliente 7 termino en: Corte
+[2025-11-30T06:55:10.946126600] Cliente 4 termino en: Lavado
+[2025-11-30T06:55:10.947124800] Cliente 3 espera atencion en: Lavado
+[2025-11-30T06:55:10.947124800] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:11.437387400] Cliente 8 termino en: Lavado
+[2025-11-30T06:55:11.437387400] Cliente 8 espera atencion en: Corte
+[2025-11-30T06:55:11.437387400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:11.438385400] Cliente 9 espera atencion en: Lavado
+[2025-11-30T06:55:12.115557900] Cliente 1 termino en: Peinado
+[2025-11-30T06:55:12.116555300] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:12.392610800] Cliente 5 termino en: Peinado
+[2025-11-30T06:55:12.392610800] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:12.392610800] Cliente 5 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:12.459548500] Cliente 2 termino en: Corte
+[2025-11-30T06:55:12.459548500] Cliente 2 espera atencion en: Tinte
+[2025-11-30T06:55:12.459548500] Cliente 4 espera atencion en: Corte
+[2025-11-30T06:55:12.460545800] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:12.460545800] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:12.615133100] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:12.615133100] Cliente 6 termino en: Tinte
+[2025-11-30T06:55:12.616129300] Cliente 6 espera atencion en: Peinado
+[2025-11-30T06:55:12.616129300] Cliente 7 espera atencion en: Tinte
+[2025-11-30T06:55:13.745933200] Cliente 1 espera atencion en: Lavado
+[2025-11-30T06:55:13.751991300] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:14.659793800] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:14.659793800] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:14.747321200] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:14.747321200] Cliente 9 termino en: Lavado
+[2025-11-30T06:55:14.747321200] Cliente 10 espera atencion en: Lavado
+[2025-11-30T06:55:15.614362600] Cliente 3 termino en: Lavado
+[2025-11-30T06:55:15.614362600] Cliente 5 espera atencion en: Lavado
+[2025-11-30T06:55:15.615362900] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:16.070808600] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:16.070808600] Cliente 8 termino en: Corte
+[2025-11-30T06:55:16.070808600] Cliente 9 espera atencion en: Corte
+[2025-11-30T06:55:16.822036800] Cliente 2 termino en: Tinte
+[2025-11-30T06:55:16.822036800] Cliente 2 espera atencion en: Peinado
+[2025-11-30T06:55:16.823029900] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:17.004713500] Cliente 4 termino en: Corte
+[2025-11-30T06:55:17.004713500] Cliente 4 espera atencion en: Tinte
+[2025-11-30T06:55:17.004713500] Cliente 3 espera atencion en: Corte
+[2025-11-30T06:55:17.005635300] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:17.230968] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:17.230968] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:17.620160800] Cliente 1 termino en: Lavado
+[2025-11-30T06:55:17.620160800] Cliente 1 espera atencion en: Corte
+[2025-11-30T06:55:17.621161500] Cliente 2 espera atencion en: Lavado
+[2025-11-30T06:55:17.621161500] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:17.621161500] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:18.606029] Peluquera 2 trabajando en: Lavado
+[2025-11-30T06:55:18.606029] Cliente 9 termino en: Corte
+[2025-11-30T06:55:18.719521900] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:18.719521900] Cliente 5 termino en: Lavado
+[2025-11-30T06:55:18.719521900] Cliente 6 espera atencion en: Lavado
+[2025-11-30T06:55:19.304584200] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:19.304584200] Cliente 2 termino en: Peinado
+[2025-11-30T06:55:19.304584200] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:19.513915500] Cliente 6 termino en: Peinado
+[2025-11-30T06:55:19.513915500] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:19.723896500] Cliente 7 termino en: Tinte
+[2025-11-30T06:55:19.723896500] Cliente 7 espera atencion en: Peinado
+[2025-11-30T06:55:19.723896500] Cliente 8 espera atencion en: Tinte
+[2025-11-30T06:55:19.724895900] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:19.724895900] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:20.127208300] Cliente 4 termino en: Tinte
+[2025-11-30T06:55:20.127208300] Cliente 4 espera atencion en: Peinado
+[2025-11-30T06:55:20.127208300] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:20.146397900] Cliente 1 termino en: Corte
+[2025-11-30T06:55:20.146397900] Cliente 1 espera atencion en: Tinte
+[2025-11-30T06:55:20.146397900] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:21.187418600] Cliente 4 termino en: Peinado
+[2025-11-30T06:55:21.187418600] Cliente 4 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:21.273054300] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:21.273054300] Cliente 8 termino en: Tinte
+[2025-11-30T06:55:21.273054300] Cliente 9 espera atencion en: Tinte
+[2025-11-30T06:55:21.995490400] Cliente 3 termino en: Corte
+[2025-11-30T06:55:21.995490400] Cliente 3 espera atencion en: Tinte
+[2025-11-30T06:55:21.996497700] Cliente 5 espera atencion en: Corte
+[2025-11-30T06:55:21.996497700] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:21.996497700] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:22.244247400] Cliente 2 termino en: Lavado
+[2025-11-30T06:55:22.244247400] Cliente 2 espera atencion en: Corte
+[2025-11-30T06:55:22.244247400] Cliente 3 espera atencion en: Lavado
+[2025-11-30T06:55:22.245247400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:22.245247400] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:22.790150] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:22.790150] Cliente 10 termino en: Lavado
+[2025-11-30T06:55:22.790150] Cliente 10 espera atencion en: Corte
+[2025-11-30T06:55:22.902238500] Cliente 1 termino en: Tinte
+[2025-11-30T06:55:22.902238500] Cliente 1 espera atencion en: Peinado
+[2025-11-30T06:55:22.902238500] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:23.046422200] Cliente 6 termino en: Lavado
+[2025-11-30T06:55:23.046422200] Cliente 7 espera atencion en: Lavado
+[2025-11-30T06:55:23.047419600] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:23.249039100] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:23.249039100] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:23.416036400] Cliente 2 termino en: Corte
+[2025-11-30T06:55:23.416036400] Cliente 2 espera atencion en: Tinte
+[2025-11-30T06:55:23.416036400] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:23.449033] Cliente 7 termino en: Peinado
+[2025-11-30T06:55:23.449033] Cliente 7 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:23.449033] Cliente 8 espera atencion en: Peinado
+[2025-11-30T06:55:23.450026100] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:24.595337900] Cliente 1 termino en: Peinado
+[2025-11-30T06:55:24.596255800] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:24.696202800] Cliente 7 termino en: Lavado
+[2025-11-30T06:55:24.696202800] Cliente 8 espera atencion en: Lavado
+[2025-11-30T06:55:24.697123800] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:24.873752900] Cliente 3 termino en: Tinte
+[2025-11-30T06:55:24.873752900] Cliente 3 espera atencion en: Peinado
+[2025-11-30T06:55:24.873752900] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:25.155121600] Cliente 9 termino en: Tinte
+[2025-11-30T06:55:25.813753200] Cliente 5 termino en: Corte
+[2025-11-30T06:55:25.813753200] Cliente 5 espera atencion en: Tinte
+[2025-11-30T06:55:25.813753200] Cliente 6 espera atencion en: Corte
+[2025-11-30T06:55:25.814753700] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:25.898836300] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:25.898836300] Cliente 3 termino en: Peinado
+[2025-11-30T06:55:25.898836300] Cliente 3 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:25.926274300] Cliente 10 termino en: Corte
+[2025-11-30T06:55:25.926274300] Cliente 10 espera atencion en: Tinte
+[2025-11-30T06:55:25.926274300] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:26.039095400] Cliente 3 termino en: Lavado
+[2025-11-30T06:55:26.039095400] Cliente 3 espera atencion en: Corte
+[2025-11-30T06:55:26.039095400] Cliente 4 espera atencion en: Lavado
+[2025-11-30T06:55:26.040094100] Peluquera 1 trabajando en: Corte
+[2025-11-30T06:55:26.040094100] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:26.335640100] Cliente 2 termino en: Tinte
+[2025-11-30T06:55:26.335640100] Cliente 2 espera atencion en: Peinado
+[2025-11-30T06:55:26.336557600] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:27.418398600] Cliente 8 termino en: Lavado
+[2025-11-30T06:55:27.418398600] Cliente 9 espera atencion en: Lavado
+[2025-11-30T06:55:27.418398600] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:27.471012900] Cliente 6 termino en: Corte
+[2025-11-30T06:55:27.471012900] Cliente 7 espera atencion en: Corte
+[2025-11-30T06:55:27.471751700] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:27.591253800] Cliente 3 termino en: Corte
+[2025-11-30T06:55:27.591253800] Cliente 3 espera atencion en: Tinte
+[2025-11-30T06:55:27.591253800] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:27.594988800] Cliente 5 termino en: Tinte
+[2025-11-30T06:55:27.594988800] Cliente 5 espera atencion en: Peinado
+[2025-11-30T06:55:27.594988800] Cliente 6 espera atencion en: Tinte
+[2025-11-30T06:55:27.594988800] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:55:27.868344800] Cliente 10 termino en: Tinte
+[2025-11-30T06:55:27.938496900] Cliente 8 termino en: Peinado
+[2025-11-30T06:55:27.938496900] Cliente 8 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:27.939494300] Cliente 9 espera atencion en: Peinado
+[2025-11-30T06:55:27.939494300] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:55:28.659740600] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:28.659740600] Cliente 5 termino en: Peinado
+[2025-11-30T06:55:28.659740600] Cliente 5 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:29.606524800] Cliente 2 termino en: Peinado
+[2025-11-30T06:55:29.606524800] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:29.717259400] Cliente 4 termino en: Lavado
+[2025-11-30T06:55:29.717259400] Cliente 4 espera atencion en: Corte
+[2025-11-30T06:55:29.717259400] Cliente 5 espera atencion en: Lavado
+[2025-11-30T06:55:29.718259400] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:29.718259400] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:30.578760800] Cliente 6 termino en: Tinte
+[2025-11-30T06:55:30.578760800] Cliente 6 espera atencion en: Peinado
+[2025-11-30T06:55:30.579678] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:55:30.668642900] Cliente 9 termino en: Lavado
+[2025-11-30T06:55:30.668642900] Cliente 10 espera atencion en: Lavado
+[2025-11-30T06:55:30.668642900] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:30.817496400] Cliente 4 termino en: Corte
+[2025-11-30T06:55:31.200340700] Cliente 5 termino en: Lavado
+[2025-11-30T06:55:31.200340700] Cliente 5 espera atencion en: Corte
+[2025-11-30T06:55:31.200340700] Cliente 6 espera atencion en: Lavado
+[2025-11-30T06:55:31.201263300] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:31.201263300] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:31.863730900] Cliente 9 termino en: Peinado
+[2025-11-30T06:55:31.863730900] Cliente 9 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:31.863730900] Cliente 10 espera atencion en: Peinado
+[2025-11-30T06:55:31.864730900] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:31.926944300] Cliente 7 termino en: Corte
+[2025-11-30T06:55:31.926944300] Cliente 7 espera atencion en: Tinte
+[2025-11-30T06:55:31.927876400] Cliente 8 espera atencion en: Corte
+[2025-11-30T06:55:31.927876400] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:32.149370100] Cliente 3 termino en: Tinte
+[2025-11-30T06:55:32.149370100] Cliente 3 espera atencion en: Peinado
+[2025-11-30T06:55:32.149370100] Cliente 4 espera atencion en: Tinte
+[2025-11-30T06:55:32.150291900] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:32.507887400] Cliente 6 termino en: Peinado
+[2025-11-30T06:55:32.507887400] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:32.507887400] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:33.051040900] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:33.051040900] Cliente 7 termino en: Tinte
+[2025-11-30T06:55:33.051958500] Cliente 7 espera atencion en: Peinado
+[2025-11-30T06:55:33.621285700] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:33.621285700] Cliente 5 termino en: Corte
+[2025-11-30T06:55:34.215210900] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:34.216132] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:34.230837500] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:34.230837500] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:34.357957700] Cliente 10 termino en: Peinado
+[2025-11-30T06:55:34.357957700] Cliente 10 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:35.081724200] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:35.081724200] Cliente 10 termino en: Lavado
+[2025-11-30T06:55:35.516527600] Cliente 6 termino en: Lavado
+[2025-11-30T06:55:35.516527600] Cliente 6 espera atencion en: Corte
+[2025-11-30T06:55:35.517442400] Cliente 7 espera atencion en: Lavado
+[2025-11-30T06:55:35.517442400] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:35.519622300] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:35.519622300] Cliente 3 termino en: Peinado
+[2025-11-30T06:55:35.519622300] Cliente 3 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:35.579022900] Cliente 8 termino en: Corte
+[2025-11-30T06:55:35.579022900] Cliente 8 espera atencion en: Tinte
+[2025-11-30T06:55:35.579022900] Cliente 9 espera atencion en: Corte
+[2025-11-30T06:55:35.580023400] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:36.688787900] Cliente 7 termino en: Lavado
+[2025-11-30T06:55:36.688787900] Cliente 8 espera atencion en: Lavado
+[2025-11-30T06:55:36.689706600] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:36.983558800] Cliente 6 termino en: Corte
+[2025-11-30T06:55:36.983558800] Cliente 7 espera atencion en: Corte
+[2025-11-30T06:55:36.984476600] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:37.028475800] Cliente 4 termino en: Tinte
+[2025-11-30T06:55:37.028475800] Cliente 4 espera atencion en: Peinado
+[2025-11-30T06:55:37.028475800] Cliente 5 espera atencion en: Tinte
+[2025-11-30T06:55:37.029406200] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:37.280394100] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:37.280394100] Cliente 7 termino en: Peinado
+[2025-11-30T06:55:37.280394100] Cliente 7 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:37.542301400] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:39.259211200] Cliente 8 termino en: Tinte
+[2025-11-30T06:55:39.259211200] Cliente 8 espera atencion en: Peinado
+[2025-11-30T06:55:39.260128200] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:39.532182400] Peluquera 2 trabajando en: Tinte
+[2025-11-30T06:55:39.532182400] Cliente 4 termino en: Peinado
+[2025-11-30T06:55:39.532182400] Cliente 4 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:39.629110800] Cliente 7 termino en: Corte
+[2025-11-30T06:55:41.047877200] Cliente 8 termino en: Lavado
+[2025-11-30T06:55:41.047877200] Cliente 8 espera atencion en: Corte
+[2025-11-30T06:55:41.048794800] Cliente 9 espera atencion en: Lavado
+[2025-11-30T06:55:41.048794800] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:41.048794800] Peluquera 1 trabajando en: Lavado
+[2025-11-30T06:55:41.266710900] Cliente 9 termino en: Corte
+[2025-11-30T06:55:41.266710900] Cliente 9 espera atencion en: Tinte
+[2025-11-30T06:55:41.266710900] Cliente 10 espera atencion en: Corte
+[2025-11-30T06:55:41.267710] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:41.267710] Peluquera 2 trabajando en: Corte
+[2025-11-30T06:55:42.307941800] Cliente 9 termino en: Tinte
+[2025-11-30T06:55:43.133935400] Cliente 10 termino en: Corte
+[2025-11-30T06:55:43.133935400] Cliente 10 espera atencion en: Tinte
+[2025-11-30T06:55:43.133935400] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:44.007540700] Cliente 8 termino en: Peinado
+[2025-11-30T06:55:44.007540700] Cliente 8 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:44.007540700] Cliente 9 espera atencion en: Peinado
+[2025-11-30T06:55:44.008553600] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:44.193404600] Cliente 5 termino en: Tinte
+[2025-11-30T06:55:44.193404600] Cliente 5 espera atencion en: Peinado
+[2025-11-30T06:55:44.193404600] Cliente 6 espera atencion en: Tinte
+[2025-11-30T06:55:44.194416600] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:45.264992200] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:45.264992200] Cliente 9 termino en: Lavado
+[2025-11-30T06:55:45.265913500] Cliente 10 espera atencion en: Lavado
+[2025-11-30T06:55:45.439985700] Peluquera 3 trabajando en: Lavado
+[2025-11-30T06:55:45.439985700] Cliente 8 termino en: Corte
+[2025-11-30T06:55:45.439985700] Cliente 9 espera atencion en: Corte
+[2025-11-30T06:55:47.633381600] Peluquera 3 trabajando en: Corte
+[2025-11-30T06:55:47.633381600] Cliente 10 termino en: Lavado
+[2025-11-30T06:55:47.666050900] Cliente 10 termino en: Tinte
+[2025-11-30T06:55:47.842697100] Cliente 9 termino en: Peinado
+[2025-11-30T06:55:47.842697100] Cliente 9 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:47.843614500] Cliente 10 espera atencion en: Peinado
+[2025-11-30T06:55:47.843614500] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:55:48.562088500] Cliente 5 termino en: Peinado
+[2025-11-30T06:55:48.562088500] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:48.563063300] Cliente 5 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:49.377180800] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:49.377180800] Cliente 6 termino en: Tinte
+[2025-11-30T06:55:49.378111100] Cliente 6 espera atencion en: Peinado
+[2025-11-30T06:55:49.378111100] Cliente 7 espera atencion en: Tinte
+[2025-11-30T06:55:50.902113300] Peluquera 2 se toma una siesta...
+[2025-11-30T06:55:50.902113300] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:51.379625100] Cliente 10 termino en: Peinado
+[2025-11-30T06:55:51.379625100] Cliente 10 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:51.421387600] Peluquera 1 se toma una siesta...
+[2025-11-30T06:55:51.421387600] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:52.051402500] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:52.051402500] Cliente 9 termino en: Corte
+[2025-11-30T06:55:52.051402500] Cliente 10 espera atencion en: Corte
+[2025-11-30T06:55:52.446578800] Peluquera 1 trabajando en: Corte
+[2025-11-30T06:55:52.446578800] Cliente 7 termino en: Tinte
+[2025-11-30T06:55:52.446578800] Cliente 8 espera atencion en: Tinte
+[2025-11-30T06:55:53.610722700] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:55:53.610722700] Cliente 10 termino en: Corte
+[2025-11-30T06:55:54.220282500] Cliente 6 termino en: Peinado
+[2025-11-30T06:55:54.220282500] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:54.220282500] Cliente 7 espera atencion en: Peinado
+[2025-11-30T06:55:54.221203900] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:55:54.272584900] Peluquera 3 se toma una siesta...
+[2025-11-30T06:55:56.694962300] Cliente 8 termino en: Tinte
+[2025-11-30T06:55:56.694962300] Cliente 9 espera atencion en: Tinte
+[2025-11-30T06:55:56.695976900] Peluquera 3 trabajando en: Tinte
+[2025-11-30T06:55:59.050370600] Cliente 7 termino en: Peinado
+[2025-11-30T06:55:59.050370600] Cliente 7 ha salido fresquisimo y muy contento
+[2025-11-30T06:55:59.051298300] Cliente 8 espera atencion en: Peinado
+[2025-11-30T06:55:59.051298300] Peluquera 1 trabajando en: Peinado
+[2025-11-30T06:56:00.187864900] Cliente 8 termino en: Peinado
+[2025-11-30T06:56:00.187864900] Cliente 8 ha salido fresquisimo y muy contento
+[2025-11-30T06:56:00.563253] Cliente 9 termino en: Tinte
+[2025-11-30T06:56:00.563253] Cliente 9 espera atencion en: Peinado
+[2025-11-30T06:56:00.563253] Cliente 10 espera atencion en: Tinte
+[2025-11-30T06:56:00.564252900] Peluquera 1 trabajando en: Tinte
+[2025-11-30T06:56:00.564252900] Peluquera 2 trabajando en: Peinado
+[2025-11-30T06:56:02.156592500] Cliente 9 termino en: Peinado
+[2025-11-30T06:56:02.156592500] Cliente 9 ha salido fresquisimo y muy contento
+[2025-11-30T06:56:03.904353300] Cliente 10 termino en: Tinte
+[2025-11-30T06:56:03.904353300] Cliente 10 espera atencion en: Peinado
+[2025-11-30T06:56:03.905275700] Peluquera 3 trabajando en: Peinado
+[2025-11-30T06:56:06.009444300] Cliente 10 termino en: Peinado
+[2025-11-30T06:56:06.009444300] Cliente 10 ha salido fresquisimo y muy contento
+[2025-11-30T07:06:48.143771300] Jornada finalizada. Ranking generado.
+[2025-11-30T07:06:48.150743200] Cliente 1 espera atencion en: Lavado
+[2025-11-30T07:06:48.151719700] Peluquera 1 trabajando en: Lavado
+[2025-11-30T07:06:49.406999900] Cliente 1 termino en: Lavado
+[2025-11-30T07:06:49.406999900] Cliente 1 espera atencion en: Corte
+[2025-11-30T07:06:49.407998900] Cliente 2 espera atencion en: Lavado
+[2025-11-30T07:06:49.407998900] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:06:49.407998900] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:06:51.359183800] Cliente 2 termino en: Lavado
+[2025-11-30T07:06:51.432357] Cliente 1 termino en: Corte
+[2025-11-30T07:06:51.432357] Cliente 1 espera atencion en: Tinte
+[2025-11-30T07:06:51.432357] Cliente 2 espera atencion en: Corte
+[2025-11-30T07:06:51.433357] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:06:51.433357] Peluquera 3 trabajando en: Corte
+[2025-11-30T07:06:52.626540100] Cliente 2 termino en: Corte
+[2025-11-30T07:06:55.539530300] Cliente 1 termino en: Tinte
+[2025-11-30T07:06:55.539530300] Cliente 1 espera atencion en: Peinado
+[2025-11-30T07:06:55.540447600] Cliente 2 espera atencion en: Tinte
+[2025-11-30T07:06:55.540447600] Peluquera 2 trabajando en: Peinado
+[2025-11-30T07:06:55.540447600] Peluquera 3 trabajando en: Tinte
+[2025-11-30T07:06:59.681876700] Cliente 1 termino en: Peinado
+[2025-11-30T07:06:59.681876700] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T07:07:00.388706700] Cliente 2 termino en: Tinte
+[2025-11-30T07:07:00.388999800] Cliente 2 espera atencion en: Peinado
+[2025-11-30T07:07:00.389465100] Peluquera 1 trabajando en: Peinado
+[2025-11-30T07:07:03.427147600] Cliente 2 termino en: Peinado
+[2025-11-30T07:07:03.427147600] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T07:07:45.108967500] Cliente 1 espera atencion en: Lavado
+[2025-11-30T07:07:45.117256] Peluquera 1 trabajando en: Lavado
+[2025-11-30T07:07:46.996404400] Cliente 1 termino en: Lavado
+[2025-11-30T07:07:46.996404400] Cliente 1 espera atencion en: Corte
+[2025-11-30T07:07:46.997403500] Cliente 2 espera atencion en: Lavado
+[2025-11-30T07:07:46.997403500] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:07:46.997403500] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:07:48.511296400] Cliente 1 termino en: Corte
+[2025-11-30T07:07:48.511296400] Cliente 1 espera atencion en: Tinte
+[2025-11-30T07:07:48.512212300] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:07:49.216600500] Cliente 2 termino en: Lavado
+[2025-11-30T07:07:49.216600500] Cliente 2 espera atencion en: Corte
+[2025-11-30T07:07:49.216600500] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:07:52.258434800] Cliente 1 termino en: Tinte
+[2025-11-30T07:07:52.258434800] Cliente 1 espera atencion en: Peinado
+[2025-11-30T07:07:52.258434800] Peluquera 3 trabajando en: Peinado
+[2025-11-30T07:07:53.761384100] Cliente 2 termino en: Corte
+[2025-11-30T07:07:53.761384100] Cliente 2 espera atencion en: Tinte
+[2025-11-30T07:07:53.762385] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:07:54.767682800] Cliente 1 termino en: Peinado
+[2025-11-30T07:07:54.768681900] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T07:07:55.088613800] Cliente 2 termino en: Tinte
+[2025-11-30T07:07:55.088613800] Cliente 2 espera atencion en: Peinado
+[2025-11-30T07:07:55.088613800] Peluquera 2 trabajando en: Peinado
+[2025-11-30T07:07:59.008845200] Cliente 2 termino en: Peinado
+[2025-11-30T07:07:59.008845200] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T07:07:59.013579] Jornada finalizada. Ranking generado.
+[2025-11-30T07:42:53.613629300] Cliente 1 espera atencion en: Lavado
+[2025-11-30T07:42:53.621459900] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:42:56.235894] Cliente 1 termino en: Lavado
+[2025-11-30T07:42:56.236627500] Cliente 1 espera atencion en: Corte
+[2025-11-30T07:42:56.237086100] Cliente 2 espera atencion en: Lavado
+[2025-11-30T07:42:56.237086100] Peluquera 1 trabajando en: Corte
+[2025-11-30T07:42:56.238105] Peluquera 2 trabajando en: Lavado
+[2025-11-30T07:42:58.520273900] Cliente 2 termino en: Lavado
+[2025-11-30T07:42:58.520273900] Cliente 3 espera atencion en: Lavado
+[2025-11-30T07:42:58.521187500] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:43:00.373195900] Cliente 1 termino en: Corte
+[2025-11-30T07:43:00.373195900] Cliente 1 espera atencion en: Tinte
+[2025-11-30T07:43:00.374213700] Cliente 2 espera atencion en: Corte
+[2025-11-30T07:43:00.374213700] Peluquera 1 trabajando en: Corte
+[2025-11-30T07:43:00.374213700] Peluquera 2 trabajando en: Tinte
+[2025-11-30T07:43:02.490162500] Cliente 1 termino en: Tinte
+[2025-11-30T07:43:02.490162500] Cliente 1 espera atencion en: Peinado
+[2025-11-30T07:43:02.491162800] Peluquera 2 trabajando en: Peinado
+[2025-11-30T07:43:02.750353100] Cliente 3 termino en: Lavado
+[2025-11-30T07:43:02.750353100] Cliente 5 espera atencion en: Lavado
+[2025-11-30T07:43:02.751279] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:43:05.274836] Cliente 2 termino en: Corte
+[2025-11-30T07:43:05.274836] Cliente 2 espera atencion en: Tinte
+[2025-11-30T07:43:05.275749900] Cliente 3 espera atencion en: Corte
+[2025-11-30T07:43:05.275749900] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:06.356359] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:06.356359] Cliente 1 termino en: Peinado
+[2025-11-30T07:43:06.357358700] Cliente 1 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:07.546465700] Cliente 5 termino en: Lavado
+[2025-11-30T07:43:07.546465700] Cliente 4 espera atencion en: Lavado
+[2025-11-30T07:43:07.547476700] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:43:08.992531300] Cliente 3 termino en: Corte
+[2025-11-30T07:43:08.992531300] Cliente 5 espera atencion en: Corte
+[2025-11-30T07:43:08.993472800] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:10.045968400] Cliente 2 termino en: Tinte
+[2025-11-30T07:43:10.045968400] Cliente 2 espera atencion en: Peinado
+[2025-11-30T07:43:10.045968400] Cliente 3 espera atencion en: Tinte
+[2025-11-30T07:43:10.046968500] Peluquera 1 trabajando en: Peinado
+[2025-11-30T07:43:11.165241400] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:11.165241400] Cliente 2 termino en: Peinado
+[2025-11-30T07:43:11.165241400] Cliente 2 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:11.227702400] Cliente 4 termino en: Lavado
+[2025-11-30T07:43:11.227702400] Cliente 8 espera atencion en: Lavado
+[2025-11-30T07:43:11.227702400] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:43:11.448723200] Cliente 5 termino en: Corte
+[2025-11-30T07:43:11.448723200] Cliente 4 espera atencion en: Corte
+[2025-11-30T07:43:11.449722800] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:12.367496700] Cliente 3 termino en: Tinte
+[2025-11-30T07:43:12.367496700] Cliente 3 espera atencion en: Peinado
+[2025-11-30T07:43:12.367496700] Cliente 5 espera atencion en: Tinte
+[2025-11-30T07:43:12.368501500] Peluquera 1 trabajando en: Peinado
+[2025-11-30T07:43:13.688709600] Peluquera 3 trabajando en: Tinte
+[2025-11-30T07:43:13.688709600] Cliente 8 termino en: Lavado
+[2025-11-30T07:43:13.689637600] Cliente 7 espera atencion en: Lavado
+[2025-11-30T07:43:14.446911700] Peluquera 2 trabajando en: Lavado
+[2025-11-30T07:43:14.446911700] Cliente 4 termino en: Corte
+[2025-11-30T07:43:14.447858500] Cliente 8 espera atencion en: Corte
+[2025-11-30T07:43:14.995821600] Peluquera 3 trabajando en: Corte
+[2025-11-30T07:43:14.995821600] Cliente 5 termino en: Tinte
+[2025-11-30T07:43:14.996740] Cliente 4 espera atencion en: Tinte
+[2025-11-30T07:43:16.705703900] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:16.705703900] Cliente 3 termino en: Peinado
+[2025-11-30T07:43:16.705703900] Cliente 3 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:16.706623500] Cliente 5 espera atencion en: Peinado
+[2025-11-30T07:43:17.125012] Peluquera 3 trabajando en: Peinado
+[2025-11-30T07:43:17.125012] Cliente 8 termino en: Corte
+[2025-11-30T07:43:18.423902600] Cliente 4 termino en: Tinte
+[2025-11-30T07:43:18.423902600] Cliente 8 espera atencion en: Tinte
+[2025-11-30T07:43:18.424903400] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:18.462254200] Cliente 5 termino en: Peinado
+[2025-11-30T07:43:18.462254200] Cliente 5 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:18.462254200] Cliente 4 espera atencion en: Peinado
+[2025-11-30T07:43:18.463254200] Peluquera 3 trabajando en: Peinado
+[2025-11-30T07:43:19.188176800] Cliente 7 termino en: Lavado
+[2025-11-30T07:43:19.188176800] Cliente 7 espera atencion en: Corte
+[2025-11-30T07:43:19.188176800] Cliente 6 espera atencion en: Lavado
+[2025-11-30T07:43:19.189177100] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:20.182442200] Peluquera 3 trabajando en: Lavado
+[2025-11-30T07:43:20.182442200] Cliente 4 termino en: Peinado
+[2025-11-30T07:43:20.182442200] Cliente 4 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:20.183441500] EVENTO LOQUISIMO: Acaba de entrar un loco gritando que un tal Jose le esta persiguiendo por decir que Valentin no es tan mala persona
+[2025-11-30T07:43:20.224392200] Cliente 7 termino en: Corte
+[2025-11-30T07:43:20.254872200] Cliente 8 termino en: Tinte
+[2025-11-30T07:43:20.255073500] Cliente 8 espera atencion en: Peinado
+[2025-11-30T07:43:20.255073500] Cliente 7 espera atencion en: Tinte
+[2025-11-30T07:43:20.255073500] Peluquera 2 trabajando en: Peinado
+[2025-11-30T07:43:20.255073500] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:21.862174600] Cliente 8 termino en: Peinado
+[2025-11-30T07:43:21.862174600] Cliente 8 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:23.100294900] Cliente 7 termino en: Tinte
+[2025-11-30T07:43:23.100609100] Cliente 7 espera atencion en: Peinado
+[2025-11-30T07:43:23.101011900] Peluquera 2 trabajando en: Peinado
+[2025-11-30T07:43:24.524481200] Cliente 7 termino en: Peinado
+[2025-11-30T07:43:24.524876800] Cliente 7 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:28.911209600] Cliente 6 termino en: Lavado
+[2025-11-30T07:43:28.911209600] Peluquera 3 se toma una siesta...
+[2025-11-30T07:43:28.912208500] Cliente 9 espera atencion en: Lavado
+[2025-11-30T07:43:28.912208500] Cliente 6 espera atencion en: Corte
+[2025-11-30T07:43:28.912208500] Peluquera 1 trabajando en: Lavado
+[2025-11-30T07:43:28.912208500] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:30.148079400] Peluquera 1 se toma una siesta...
+[2025-11-30T07:43:30.148079400] Cliente 9 termino en: Lavado
+[2025-11-30T07:43:30.148996800] Cliente 10 espera atencion en: Lavado
+[2025-11-30T07:43:30.331309] Peluquera 2 se toma una siesta...
+[2025-11-30T07:43:30.331309] Cliente 6 termino en: Corte
+[2025-11-30T07:43:30.331309] Cliente 6 espera atencion en: Tinte
+[2025-11-30T07:43:30.332308600] Cliente 9 espera atencion en: Corte
+[2025-11-30T07:43:30.563511100] Peluquera 3 se toma una siesta...
+[2025-11-30T07:43:30.563511100] Peluquera 3 trabajando en: Tinte
+[2025-11-30T07:43:31.509743] Peluquera 1 se toma una siesta...
+[2025-11-30T07:43:31.509743] Peluquera 1 trabajando en: Corte
+[2025-11-30T07:43:31.827479900] Peluquera 2 se toma una siesta...
+[2025-11-30T07:43:31.827479900] Peluquera 2 trabajando en: Lavado
+[2025-11-30T07:43:34.397555] Cliente 6 termino en: Tinte
+[2025-11-30T07:43:34.397555] Cliente 6 espera atencion en: Peinado
+[2025-11-30T07:43:34.397555] Peluquera 3 trabajando en: Peinado
+[2025-11-30T07:43:35.181958200] Cliente 9 termino en: Corte
+[2025-11-30T07:43:35.181958200] Cliente 9 espera atencion en: Tinte
+[2025-11-30T07:43:35.182859700] Peluquera 1 trabajando en: Tinte
+[2025-11-30T07:43:35.581040600] Cliente 10 termino en: Lavado
+[2025-11-30T07:43:35.581040600] Cliente 10 espera atencion en: Corte
+[2025-11-30T07:43:35.581040600] Peluquera 2 trabajando en: Corte
+[2025-11-30T07:43:36.193779100] Cliente 6 termino en: Peinado
+[2025-11-30T07:43:36.193779100] Cliente 6 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:38.205284700] Cliente 10 termino en: Corte
+[2025-11-30T07:43:39.282047700] Cliente 9 termino en: Tinte
+[2025-11-30T07:43:39.282387400] Cliente 9 espera atencion en: Peinado
+[2025-11-30T07:43:39.282387400] Cliente 10 espera atencion en: Tinte
+[2025-11-30T07:43:39.283385100] Peluquera 2 trabajando en: Tinte
+[2025-11-30T07:43:39.283385100] Peluquera 3 trabajando en: Peinado
+[2025-11-30T07:43:39.283385100] EVENTO LOQUISIMO: Acaba de entrar un loco gritando que un tal Jose le esta persiguiendo por decir que Valentin no es tan mala persona
+[2025-11-30T07:43:43.512932600] Cliente 9 termino en: Peinado
+[2025-11-30T07:43:43.512932600] Cliente 9 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:44.900481] Cliente 10 termino en: Tinte
+[2025-11-30T07:43:44.900814700] Cliente 10 espera atencion en: Peinado
+[2025-11-30T07:43:44.901302200] Peluquera 1 trabajando en: Peinado
+[2025-11-30T07:43:47.744002900] Cliente 10 termino en: Peinado
+[2025-11-30T07:43:47.744351500] Cliente 10 ha salido fresquisimo y muy contento
+[2025-11-30T07:43:47.747647100] Peluquera 1 atendió : 13 servicios.
+[2025-11-30T07:43:47.748494100] Peluquera 2 atendió : 14 servicios.
+[2025-11-30T07:43:47.748968900] Peluquera 3 atendió : 13 servicios.
+[2025-11-30T07:43:47.749205600] Jornada finalizada. Ranking generado.

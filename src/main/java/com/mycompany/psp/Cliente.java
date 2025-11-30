@@ -33,5 +33,6 @@ public class Cliente extends Thread {
         peluqueria.getTinte().entrar(this);
         peluqueria.getPeinado().entrar(this);
         Logger.escribir("Cliente " + id + " ha salido fresquisimo y muy contento");
+        System.out.println("Cliente " + id + " ha salido fresquisimo y muy contento");
     }
 }

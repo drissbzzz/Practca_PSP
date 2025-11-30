@@ -19,10 +19,10 @@ public class Logger {
 
     public static synchronized void escribir(String mensaje) {
 
-        LocalDateTime fechaHora = LocalDateTime.now();
-        String lineaLog = "[" + fechaHora + "] " + mensaje;
-        try (FileWriter fw = new FileWriter(archivo, true); PrintWriter pw = new PrintWriter(fw)) {
-            pw.println(lineaLog);
+        LocalDateTime fechaHora = LocalDateTime.now(); //Almacenamos la fecha del evento
+        String lineaLog = "[" + fechaHora + "] " + mensaje;//Estructuramos la linea
+        try (FileWriter fw = new FileWriter(archivo, true); PrintWriter pw = new PrintWriter(fw)) { //Se escribirá en el documento y con append para que añada nuevos datos
+            pw.println(lineaLog);// Imprimimos la linea que planeamos antes
         } catch (IOException e) {
             System.err.println("Error escribiendo en el log: " + e.getMessage());
         }

@@ -8,7 +8,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- *
+ *  Esta es una clase residual que hice para probar el funcionamiento de una manera cuando me dijiste lo de los colores,
+ * hay un error en ella que hace que se bloqueen los hilosy se produzca inanicion en el lavado y las peluqueras se mueren o bloquean
+ * Me gustaria revisarla para entender mejor que error esta pasando aqui
  * @author driss
  */
 public class SitioAnticuado {

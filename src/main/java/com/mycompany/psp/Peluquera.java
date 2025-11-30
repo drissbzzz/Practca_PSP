@@ -14,6 +14,7 @@ public class Peluquera extends Thread {
     private Peluqueria p;
     private int clientesAtendidos = 0;
     private int totalClientesHistorico = 0;
+    private int limiteCansancio = (int) (Math.random() * 5 + 8); //Limite de cansacio aleatorio inicial
 
     public Peluquera(int id, Peluqueria p) {
         this.id = id;
@@ -30,14 +31,14 @@ public class Peluquera extends Thread {
     
 
     public void run() {
-        while (true) { // Como es Daemon, este while morirá solo
+        while (true) { //Las hicimos Daemos para que muriese el hilo cuando no haya otros de mayor importancia
             try {
-                // Estado: WAIT (Naranja) -> Esperando ticket
+                //Dormidas y esperando que un cliente se siente
                 p.esperarTimbre();
 
-                boolean heTrabajado = false;
+                boolean heTrabajado = false; //Para saber si completaron un servicio
 
-                // Estado: RUNNING (Verde) -> Buscando trabajo
+                // Al llegar un cliente, comprueban si pueden atender en las zonas
                 if (p.getPeinado().atender(this)) {
                     heTrabajado = true;
                 } else if (p.getTinte().atender(this)) {
@@ -47,20 +48,23 @@ public class Peluquera extends Thread {
                 } else if (p.getLavado().atender(this)) {
                     heTrabajado = true;
                 }
-
-                if (!heTrabajado) {
-                    p.tocarTimbre();
-                    // Estado: SLEEPING (Morado) -> Pequeña pausa
+                //Evitar bloqueos e inancion
+                if (!heTrabajado) {// Si no ha conseguido trabajar
+                    p.tocarTimbre(); //Devuelve el ticket que cogió para que el cliente que lo lanzó no lo pierda
+                    //Se duerme una fraccion de segundo para evitar entrar en un bucle continuo
                     Thread.sleep(10);
                 } else {
-                    clientesAtendidos++;
-                    totalClientesHistorico++;
-                    if (clientesAtendidos >= 10) {
+                    clientesAtendidos++;//Para contabilizar el sistema de siestas
+                    totalClientesHistorico++;//Para el ranking
+                    if (clientesAtendidos >= limiteCansancio) {
                         Logger.escribir("Peluquera " + id + " se toma una siesta...");
+                        System.out.println("Peluquera " + id + " se toma una siesta...");
                         // Estado: SLEEPING (Morado) -> Siesta larga
-                        Thread.sleep((long) (Math.random() * 2000 + 1000));
-                        System.out.println("Peluquera " + id + " vuelve al trabajo.");
-                        clientesAtendidos = 0;
+                        Thread.sleep((long) (Math.random() * 2000 + 1000)); //Simulamos el tiempo de la siesta
+                        Logger.escribir("Peluquera " + id + " se toma una siesta...");
+                        System.out.println("Peluquera " + id + " vuelve al trabajo.");                       
+                        clientesAtendidos = 0; //Reseteamos la variable para la siesta
+                        limiteCansancio = (int) (Math.random() * 5 + 8); //Nuevo limite para la siguiente siesta
                     }
                 }
             } catch (Exception e) {

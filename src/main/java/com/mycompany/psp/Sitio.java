@@ -9,12 +9,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Sitio {
 
-    private Peluqueria p;
-    private String nombre;
-    private Semaphore silla = new Semaphore(1);
-    private ReentrantLock cerrojoPeluquera = new ReentrantLock();
-    private Semaphore finServicio = new Semaphore(0);
-    private boolean ocupado = false;
+    private Peluqueria p; //Centralita  a la que pertenece esta zona
+    private String nombre; //Nombre de la zona
+    private Semaphore silla = new Semaphore(1); //Control de que no entre mas de un cliente en la zona
+    private ReentrantLock cerrojoPeluquera = new ReentrantLock(); //Control de que no entre mas de una peluquera en la zona
+    private Semaphore finServicio = new Semaphore(0);//Control para liberar al cliente y que vaya al siguiente puesto
+    private boolean ocupado = false; //Para reflejar que en la silla hay un cliente
 
     public Sitio(String nombre, Peluqueria p) {
         this.nombre = nombre;
@@ -29,10 +29,12 @@ public class Sitio {
         try {
             silla.acquire();  // Cliente coge un ticket del semaforo de la silla            
             System.out.println("Cliente " + c.getIdCliente() + " espera atencion en: " + nombre);
+            Logger.escribir("Cliente " + c.getIdCliente() + " espera atencion en: " + nombre);
             ocupado = true; //Para que la peluquera antes de actuar confirme que hay un cliente
             p.tocarTimbre();// Cliente libera un ticket general para indicar que hay trabajo pendiente
-            finServicio.acquire(); //Intenta adquirir un ticket de servicio terminado
+            finServicio.acquire(); //Intenta adquirir un ticket de servicio terminado para pasar al siguiente puesto
             System.out.println("Cliente " + c.getIdCliente() + " termino en: " + nombre);
+            Logger.escribir("Cliente " + c.getIdCliente() + " termino en: " + nombre);
             silla.release(); //Libera el ticket para que otro pueda ocupar la silla
         } catch (InterruptedException e) {
             System.out.println("Error en la entrada del cliente");
@@ -48,8 +50,31 @@ public class Sitio {
                 }
                 // Trabajando sobre el cliente
                 Logger.escribir("Peluquera " + p.getIdPeluquera() + " trabajando en: " + nombre);
+                System.out.println("Peluquera " + p.getIdPeluquera() + " trabajando en: " + nombre);
                 try {
-                    Thread.sleep((long) (Math.random() * 4000 + 1000));// Tiempo aleatorio de descanso entre 1 y 5 segundos
+                    String mensajeEvento = "";
+                    int tiempoSolucion = 0;
+                    if (Math.random() < 0.05){
+                        int tipoEvento = (int) (Math.random() * 3);                      
+                        switch (tipoEvento) {
+                        case 0:
+                            mensajeEvento = "La Peluquera " + p.getIdPeluquera() + " se está ligando al butanero. Joder macho, nos van a cascar una hoja de reclamaciones";
+                            tiempoSolucion = 3000;
+                            break;
+                        case 1:
+                            mensajeEvento = "Acaba de entrar un loco gritando que un tal Jose le esta persiguiendo por decir que Valentin no es tan mala persona";
+                            tiempoSolucion = 4000;
+                            break;
+                        case 2:
+                            mensajeEvento = "Un gitano ha venido con su mujer pegando berridos. La Peluquera " + p.getIdPeluquera() + " dice que es que no le gustaba el corte. Cago en la puta...";
+                            tiempoSolucion = 7000;
+                            break;
+                    }
+                    System.out.println("EVENTO LOQUISIMO:️ " + mensajeEvento);
+                    Logger.escribir("EVENTO LOQUISIMO: " + mensajeEvento);    
+                    }
+                    Thread.sleep((long) (Math.random() * 4000 + 1000));// Tiempo aleatorio para simular la atención entre 1 y 5 segundos
+                    Thread.sleep(tiempoSolucion);
                 } catch (Exception e) {
                     System.out.println("Error en el sleep de la peluquera");
                 }
